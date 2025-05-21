@@ -1,3 +1,21 @@
+Answer
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation */
+.animated {
+  animation: fadeIn 2s;
+}
+
+
 # CSS3 Transitions, Animations, and Advanced JavaScript Functions
 
 ## Objectives
